@@ -4,7 +4,7 @@
     const tags = (scriptTag?.dataset.tags || '').split(',').filter(Boolean);
   
     const iframe = document.createElement('iframe');
-    iframe.src = `https://yourdomain.com/widget?project_id=${projectId}&tags=${encodeURIComponent(tags.join(','))}`;
+    iframe.src = `https://chat-widget-orcin.vercel.app/widget?project_id=${projectId}&tags=${encodeURIComponent(tags.join(','))}`;
     iframe.style.position = 'fixed';
     iframe.style.bottom = '20px';
     iframe.style.right = '20px';
