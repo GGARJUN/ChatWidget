@@ -188,14 +188,7 @@ export default function Home() {
           </div>
         </footer>
       </div>
-      <script
-        id="chatbot-inject-page"
-        src="https://gregarious-malasada-46a300.netlify.app/inject.js"
-        // src="http://localhost:3001/inject.js"
-        strategy="afterInteractive"
-        data-project-id="abc123"
-        data-tags="faq,support"
-      />
+      <script data-project-id="myProject" data-tags="chat,support" src="https://custom-chatbot-widget.netlify.app/inject.js"></script>
     </>
   );
 }
