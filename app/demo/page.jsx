@@ -17,11 +17,11 @@ export default function DemoPage() {
                     </p>
 
                     <pre className="overflow-x-auto rounded bg-gray-800 p-4 text-sm text-white">
-                        {`<script 
-    src="https://gregarious-malasada-46a300.netlify.app/inject.js" 
-    data-project-id="abc123" 
-    data-tags="faq,support"
-  ></script>`}
+                        {` <script 
+                        data-project-id="myProject"
+                        data-tags="chat,support" 
+                        src="https://custom-chatbot-widget.netlify.app/inject.js">
+                        </script>`}
                     </pre>
                 </div>
 
